@@ -31,3 +31,7 @@ k.set('n', '<leader>e', ':NeoTreeFocusToggle<CR>', {silent = true})
 
 -- Bufferline
 k.set('n', '<leader>c', ':bdelete<CR>', {silent = true})
+
+-- Telescope 
+k.set('n', '<leader>ff', ':Telescope find_files<CR>', {silent = true})
+k.set('n', '<leader>ft', ':Telescope live_grep<CR>', {silent = true})

@@ -15,7 +15,9 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappings are correct
 
 require("lazy").setup({
-"nvim-lua/plenary.nvim",
+"nvim-lua/plenary.nvim", -- required by many packages
+
+-- Vscode colorscheme
 {
   "Mofiqul/vscode.nvim",
   lazy = false,
@@ -24,9 +26,16 @@ require("lazy").setup({
        vim.cmd([[colorscheme vscode]])
       end
 },
+-- Devicons
 'nvim-tree/nvim-web-devicons',
+
+--Buffer line that shows tabs
 'akinsho/bufferline.nvim',
+
+  -- Colorizer that colorize hash colors
 'norcalli/nvim-colorizer.lua',
+
+ -- File explorer
 {
   "nvim-neo-tree/neo-tree.nvim",
     branch = "v2.x",
@@ -36,8 +45,12 @@ require("lazy").setup({
       "MunifTanjim/nui.nvim",
     }
   },
+  -- Lua line status line
  {
   'nvim-lualine/lualine.nvim',
   requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   },
+
+  -- fuzzy finding w/ telescope
+  { "nvim-telescope/telescope.nvim", branch = "0.1.x" }-- fuzzy finder
 })
