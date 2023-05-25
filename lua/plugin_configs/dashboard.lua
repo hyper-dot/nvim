@@ -1,4 +1,7 @@
-local db = require('dashboard')
+local status, db = pcall(require, "dashboard")
+if not status then
+ return print("Dashboard not found !!") 
+end
 db.setup({
   theme = 'doom',
   config = {
