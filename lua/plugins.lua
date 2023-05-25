@@ -96,4 +96,13 @@ require("lazy").setup({
 	-- autoclosing
 	"windwp/nvim-autopairs",
 	"windwp/nvim-ts-autotag",
+
+	-- Comment plugin
+	{
+		"numToStr/Comment.nvim",
+		event = "VeryLazy",
+		config = function()
+			require("Comment").setup()
+		end,
+	},
 })
