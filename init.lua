@@ -11,3 +11,6 @@ require("plugin_configs.dashboard")
 require("plugin_configs.treesitter")
 require("plugin_configs.lualine")
 
+
+
+
