@@ -26,7 +26,7 @@ k.set('i','<C-l>' , '<C-o>l') -- Exits insert mode
 -- Plugin specifics
 
 -- Nvim Tree File explorer
-k.set('n', '<leader>e', ':NeoTreeFocusToggle<CR>', {silent = true})
+k.set('n', '<leader>e', ':NeoTreeRevealToggle<CR>', {silent = true})
 
 -- Bufferline
 k.set('n', '<leader>c', ':bdelete<CR>', {silent = true})
