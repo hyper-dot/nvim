@@ -92,4 +92,8 @@ require("lazy").setup({
 
 	-- Formating and linting
 	"jose-elias-alvarez/null-ls.nvim",
+
+	-- autoclosing
+	"windwp/nvim-autopairs",
+	"windwp/nvim-ts-autotag",
 })
