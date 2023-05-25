@@ -10,5 +10,8 @@
         "/home/linux/.local/share/lunarvim/site/pack/lazy/opt/plenary.nvim/lua",
         "/home/linux/.local/share/lvim/mason/packages/lua-language-server/libexec/meta/724cecc1",
         "/home/linux/.local/share/lvim/mason/packages/lua-language-server/libexec/meta/51d4ceee"
+    ],
+    "diagnostics.disable": [
+        "param-type-mismatch"
     ]
 }
