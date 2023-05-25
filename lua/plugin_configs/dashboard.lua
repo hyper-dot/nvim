@@ -34,6 +34,15 @@ db.setup({
     center = {
       {
         icon = ' ',
+        desc = 'New Files',
+        key = 'n',
+        keymap = 'n',
+        action = 'Telescope oldfiles'
+      },
+      {
+        icon = ' ',
+        icon_hl = 'Title',
+        desc_hl = 'String',
         desc = 'Recent Files',
         key = 'r',
         keymap = 'r',
@@ -42,8 +51,6 @@ db.setup({
       {
         icon = ' ',
         desc = 'Find File',
-        icon_hl = 'Title',
-        desc_hl = 'String',
         key_hl = 'Number',
         key = 'f',
         keymap = 'f',
@@ -51,6 +58,8 @@ db.setup({
       },
       {
         icon = ' ',
+        icon_hl = 'Title',
+        desc_hl = 'String',
         desc = 'Search Text',
         key = 't',
         keymap = 't',
