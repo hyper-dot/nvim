@@ -32,6 +32,7 @@ k.set("n", "<leader>x", ":bdelete<CR>", { silent = true })
 -- Telescope
 k.set("n", "<leader>ff", ":Telescope find_files<CR>", { silent = true })
 k.set("n", "<leader>ft", ":Telescope live_grep<CR>", { silent = true })
+k.set("n", "<leader>fr", ":Telescope oldfiles<CR>", { silent = true })
 
 -- Lazygit
 k.set("n", "<leader>gg", ":LazyGit<CR>", { silent = true })
