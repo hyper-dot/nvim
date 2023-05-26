@@ -1,3 +1,5 @@
+> Inspired by [neovim-like-vscode](https://github.com/josethz00/neovim-like-vscode) by [José] (https://github.com/josethz00)
+
 # Make your NeoVim looks like VSCode
 
 This is a public repo, that contains some settings and plugins that allows you to use NeoVim like Visual Studio Code.
