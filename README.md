@@ -23,6 +23,15 @@ This is a public repo, that contains some settings and plugins that allows you t
 <br />
 <h3>By using this settings, how will my NeoVim looks like?</h3>
 <br />
+
+## To install first backup your `~/.config/nvim/` folder and then clone the repo into your config by using following command
+
+```sh
+mv ~/.config/nvim/ ~/.config/nvim.bak
+
+git clone git@github.com:Roshanpaudel111/nvim.git ~/.config/nvim
+```
+
 <h1 align='center'>
   <img src='./assets/pic1.png' alt='NeoVim VSCode'/>
   ---
