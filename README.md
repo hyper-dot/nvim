@@ -1,4 +1,4 @@
-> Inspired by [neovim-like-vscode](https://github.com/josethz00/neovim-like-vscode) by [José] (https://github.com/josethz00)
+> Inspired by [neovim-like-vscode](https://github.com/josethz00/neovim-like-vscode) by [José](https://github.com/josethz00)
 
 # Make your NeoVim looks like VSCode
 
