@@ -23,6 +23,8 @@ This is a public repo, that contains some settings and plugins that allows you t
 <br />
 <h1 align='center'>
   <img src='./assets/pic1.png' alt='NeoVim VSCode'/>
+  ---
   <img src='./assets/pic2.png' alt='NeoVim VSCode'/>
+  ---
   <img src='./assets/pic3.png' alt='NeoVim VSCode'/>
 </h1>
