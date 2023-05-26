@@ -11,5 +11,10 @@
     "/home/linux/.local/share/lvim/mason/packages/lua-language-server/libexec/meta/724cecc1",
     "/home/linux/.local/share/lvim/mason/packages/lua-language-server/libexec/meta/51d4ceee"
   ],
-  "diagnostics.disable": ["param-type-mismatch"]
+  "diagnostics.disable": ["param-type-mismatch",
+        "redundant-parameter"],
+    "diagnostics.globals": [
+        "vim",
+        "hello"
+    ]
 }

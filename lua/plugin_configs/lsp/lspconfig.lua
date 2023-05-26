@@ -96,7 +96,7 @@ end
 
 vim.diagnostic.config({
 	virtual_text = {
-		prefix = "",
+		prefix = "●",
 	},
 
 	update_in_insert = true,

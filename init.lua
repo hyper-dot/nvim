@@ -1,7 +1,6 @@
 -- Core
 require("core.base")
 require("core.keymappings")
-
 require("plugins")
 
 -- plugins
