@@ -10,7 +10,7 @@ require("plugin_configs.lsp.mason")
 require("plugin_configs.lsp.lspsaga")
 require("plugin_configs.lsp.lspconfig")
 require("plugin_configs.lsp.null-ls")
-require("plugin_configs.nvim-cmp")
+require("plugin_configs.lsp.nvim-cmp")
 
 -- UI
 require("plugin_configs.ui.neotree")
