@@ -21,7 +21,9 @@ null_ls.setup({
 			extra_filetypes = { "javascript", "javascriptreact", "typescript", "typescript-react" },
 			extra_args = { "--single-quote", "--jsx-single-quote" },
 		}),
+		formatting.black, -- Python formatter
 		formatting.stylua, -- lua formatter
+
 		diagnostics.eslint_d.with({ -- js/ts linter
 			-- only enable eslint if root has .eslintrc.js (not in youtube nvim video)
 			condition = function(utils)

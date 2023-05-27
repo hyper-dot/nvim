@@ -12,10 +12,14 @@ end
 mason.setup()
 mason_lspconfig.setup({
 	ensure_installed = {
-		"tsserver",
-		"html",
-		"cssls",
-		"tailwindcss",
-		"lua_ls",
+		"prettier", -- formatter for javascript
+		"black", -- formatter for python
+
+		-- Language servers
+		"tsserver", -- TypeScript/JavaScript
+		"html", -- HTML
+		"cssls", -- CSS
+		"tailwindcss", -- Tailwind CSS
+		"lua_ls", -- Lua
 	},
 })
