@@ -36,3 +36,6 @@ k.set("n", "<leader>fr", ":Telescope oldfiles<CR>", { silent = true })
 
 -- Lazygit
 k.set("n", "<leader>gg", ":LazyGit<CR>", { silent = true })
+
+-- Makdown preview
+k.set("n", "<leader>mt", ":MarkdownPreviewToggle<CR>", { silent = true })
