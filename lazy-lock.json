@@ -10,6 +10,7 @@
   "friendly-snippets": { "branch": "main", "commit": "ef6547d2f586e08e071efeebac835e545f3015cc" },
   "lazy.nvim": { "branch": "main", "commit": "67ae8bbbe3985e380b98abeaf6c567c422b29746" },
   "lazygit.nvim": { "branch": "main", "commit": "883c25d13eafd8b89b3cc116c712b19c9d2a755e" },
+  "leap.nvim": { "branch": "main", "commit": "be918a8e6aa00a6cfa7270d4bfcc11b2f80d6902" },
   "lspkind.nvim": { "branch": "master", "commit": "57610d5ab560c073c465d6faf0c19f200cb67e6e" },
   "lspsaga.nvim": { "branch": "main", "commit": "01b9633aefd010f272d6c7e3d8293c44fcfe7696" },
   "lualine.nvim": { "branch": "master", "commit": "05d78e9fd0cdfb4545974a5aa14b1be95a86e9c9" },

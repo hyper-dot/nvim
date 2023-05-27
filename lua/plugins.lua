@@ -15,7 +15,10 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappings are correct
 
 require("lazy").setup({
-	"nvim-lua/plenary.nvim", -- required by many packages
+	"nvim-lua/plenary.nvim", -- dependency of many packages
+
+	-- Leap to get there fast
+	"ggandor/leap.nvim",
 
 	-- Vscode colorscheme
 	{

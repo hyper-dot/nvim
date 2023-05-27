@@ -5,6 +5,11 @@ require("plugins")
 
 -- Plugins
 
+-- UTILS
+require("plugin_configs.telescope")
+require("plugin_configs.autopairs")
+require("plugin_configs.leap")
+
 -- LSP
 require("plugin_configs.lsp.mason")
 require("plugin_configs.lsp.lspsaga")
@@ -19,7 +24,3 @@ require("plugin_configs.ui.colorizer")
 require("plugin_configs.ui.bufferline")
 require("plugin_configs.ui.treesitter")
 require("plugin_configs.ui.lualine")
-
--- UTILS
-require("plugin_configs.telescope")
-require("plugin_configs.autopairs")
