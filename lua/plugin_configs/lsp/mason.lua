@@ -12,9 +12,6 @@ end
 mason.setup()
 mason_lspconfig.setup({
 	ensure_installed = {
-		"prettier", -- formatter for javascript
-		"black", -- formatter for python
-
 		-- Language servers
 		"tsserver", -- TypeScript/JavaScript
 		"html", -- HTML
