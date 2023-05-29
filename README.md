@@ -29,7 +29,7 @@ This is a public repo, that contains some settings and plugins that allows you t
 ```sh
 mv ~/.config/nvim/ ~/.config/nvim.bak
 
-git clone git@github.com:Roshanpaudel111/nvim.git ~/.config/nvim
+git clone https://github.com/Roshanpaudel111/nvim.git ~/.config/nvim
 ```
 
 <h1 align='center'>
