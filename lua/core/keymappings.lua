@@ -18,8 +18,8 @@ k.set("n", "<S-h>", ":BufferLineCyclePrev<CR>", { silent = true })
 
 -- In insert mode
 k.set("i", "jj", "<ESC>") -- Exits insert mode
-k.set("i", "<C-h>", "<C-o>h") -- Exits insert mode
-k.set("i", "<C-l>", "<C-o>l") -- Exits insert mode
+k.set("i", "<C-h>", "<C-o>h")
+k.set("i", "<C-l>", "<C-o>l")
 
 -- Plugin specifics
 

@@ -23,6 +23,7 @@ null_ls.setup({
 		}),
 		formatting.black, -- Python formatter
 		formatting.stylua, -- lua formatter
+		diagnostics.cpplint,
 
 		diagnostics.eslint_d.with({ -- js/ts linter
 			-- only enable eslint if root has .eslintrc.js (not in youtube nvim video)
