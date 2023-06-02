@@ -152,4 +152,8 @@ require("lazy").setup({
 			})
 		end,
 	},
+	{
+		"christoomey/vim-tmux-navigator",
+		lazy = false,
+	},
 })

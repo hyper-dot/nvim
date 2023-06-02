@@ -10,7 +10,6 @@ k.set("n", "<leader>w", ":w<CR>")
 k.set("n", "<leader>h", ":nohlsearch<CR>", { silent = true }) -- removes highlight from searched text
 k.set("n", "<leader>q", ":q<CR>") -- Quits neovim
 k.set("n", "<leader>Q", ":q!<CR>") -- Force quits without saving
-k.set("n", "<C-a>", "gg<S-v>G") -- Select all
 k.set("n", "<C-h>", "^")
 k.set("n", "<C-l>", "g_")
 k.set("n", "<S-l>", ":BufferLineCycleNext<CR>", { silent = true })
