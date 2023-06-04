@@ -70,6 +70,21 @@ typescript.setup({
 	},
 })
 
+-- =================Golang=====================
+lspconfig.gopls.setup({
+	on_attach = on_attach,
+	capabilities = capabilities,
+	cmd = { "gopls" },
+	filetypes = { "go", "gomod", "gowork", "gotmpl" },
+	settings = {
+		completeUnimported = true,
+		usePlaceholders = true,
+		analyses = {
+			unusedparms = true,
+		},
+	},
+})
+
 -- configure lua server (with special settings)
 lspconfig["lua_ls"].setup({
 	capabilities = capabilities,
