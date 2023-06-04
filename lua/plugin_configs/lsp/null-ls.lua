@@ -22,8 +22,9 @@ null_ls.setup({
 			extra_args = { "--single-quote", "--jsx-single-quote" },
 		}),
 		formatting.black, -- Python formatter
+		formatting.clang_format, -- Java formatter
 		formatting.stylua, -- lua formatter
-		diagnostics.cpplint,
+		diagnostics.cpplint, -- c/c++ diagnostics
 
 		diagnostics.eslint_d.with({ -- js/ts linter
 			-- only enable eslint if root has .eslintrc.js (not in youtube nvim video)
