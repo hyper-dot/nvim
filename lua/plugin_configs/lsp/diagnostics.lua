@@ -11,7 +11,7 @@ vim.diagnostic.config({
 		prefix = "●",
 	},
 
-	update_in_insert = true,
+	update_in_insert = false,
 	float = {
 		source = "always", --Or 'if_many'
 	},
