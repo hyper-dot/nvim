@@ -46,3 +46,11 @@ vim.api.nvim_create_autocmd("InsertLeave", {
 -- Add asterisks in block comments
 vim.opt.formatoptions:append({ "r" })
 vim.opt.fillchars:append({ eob = " " })
+
+-- wrap txt file
+vim.cmd([[
+  augroup TxtFileSettings
+    autocmd!
+    autocmd BufEnter *.txt setlocal wrap linebreak textwidth=80
+  augroup END
+]])
