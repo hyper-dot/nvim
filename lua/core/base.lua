@@ -51,6 +51,6 @@ vim.opt.fillchars:append({ eob = " " })
 vim.cmd([[
   augroup TxtFileSettings
     autocmd!
-    autocmd BufEnter *.txt setlocal wrap linebreak textwidth=80
+    autocmd BufEnter *.txt,*.md setlocal wrap linebreak 
   augroup END
 ]])
