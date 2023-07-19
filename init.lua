@@ -8,7 +8,6 @@ require("plugins")
 -- UTILS
 require("plugin_configs.telescope")
 require("plugin_configs.autopairs")
-require("plugin_configs.leap")
 
 -- LSP
 require("plugin_configs.lsp.mason")
