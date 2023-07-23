@@ -23,12 +23,22 @@ require("lazy").setup({
 	-- Vscode colorscheme
 	{
 		"Mofiqul/vscode.nvim",
+		-- lazy = false,
+		-- config = function()
+		-- 	-- load the colorscheme here
+		-- 	vim.cmd([[colorscheme vscode]])
+		-- end,
+	},
+
+	{
+		"shaunsingh/nord.nvim",
 		lazy = false,
 		config = function()
 			-- load the colorscheme here
-			vim.cmd([[colorscheme vscode]])
+			vim.cmd([[colorscheme nord]])
 		end,
 	},
+
 	-- Devicons
 	"nvim-tree/nvim-web-devicons",
 
