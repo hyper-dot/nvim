@@ -1,16 +1,13 @@
+vim.g.nord_disable_background = true
 vim.cmd("autocmd!")
-
+vim.opt.termguicolors = true
 vim.opt.signcolumn = "yes:1"
-
 vim.scriptencoding = "utf-8"
 vim.opt.encoding = "utf-8"
 vim.opt.fileencoding = "utf-8"
-
 vim.opt.clipboard = "unnamedplus"
-
 vim.wo.number = true
 vim.opt.relativenumber = true
-
 vim.opt.title = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true

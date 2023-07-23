@@ -1,3 +1,5 @@
+-- Theming
+
 -- Core
 require("core.base")
 require("core.keymappings")
@@ -25,3 +27,4 @@ require("plugin_configs.ui.colorizer")
 require("plugin_configs.ui.bufferline")
 require("plugin_configs.ui.treesitter")
 require("plugin_configs.ui.lualine")
+require("plugin_configs.ui.catppuccin")

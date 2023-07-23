@@ -33,12 +33,8 @@ require("lazy").setup({
 	},
 	-- Vscode colorscheme
 	{
-		"Mofiqul/vscode.nvim",
+		"catppuccin/nvim",
 		lazy = false,
-		config = function()
-			-- load the colorscheme here
-			vim.cmd([[colorscheme vscode]])
-		end,
 	},
 	-- Devicons
 	"nvim-tree/nvim-web-devicons",
