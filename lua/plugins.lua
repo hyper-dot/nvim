@@ -33,7 +33,7 @@ require("lazy").setup({
 	},
 	-- Vscode colorscheme
 	{
-		"catppuccin/nvim",
+		"Mofiqul/vscode.nvim",
 		lazy = false,
 	},
 	-- Devicons
