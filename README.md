@@ -24,7 +24,9 @@ This is a public repo, that contains some settings and plugins that allows you t
 <h3>By using this settings, how will my NeoVim looks like?</h3>
 <br />
 
-## To install first backup your `~/.config/nvim/` folder and then clone the repo into your config by using following command
+> NOTE: You have to have `nodejs` and `npm` as well as `python` and `pip` installed.
+
+### To install first backup your `~/.config/nvim/` folder and then clone the repo into your config by using following command
 
 ```sh
 mv ~/.config/nvim/ ~/.config/nvim.bak
