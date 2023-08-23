@@ -18,11 +18,7 @@ mason_lspconfig.setup({
 		"cssls", -- CSS
 		"tailwindcss", -- Tailwind CSS
 		"lua_ls", -- Lua
-		"clang-format",
-		"cpplint",
 		"eslint",
 		"lua_ls",
-		"prettier",
-		"stylua",
 	},
 })
