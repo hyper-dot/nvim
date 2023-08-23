@@ -19,7 +19,7 @@ null_ls.setup({
 		--  "formatting.prettier.with({disabled_filetypes = {}})" (see null-ls docs)
 		formatting.prettier.with({
 			extra_filetypes = { "javascript", "javascriptreact", "typescript", "typescript-react" },
-			extra_args = { "--single-quote", "--jsx-single-quote" },
+			--			extra_args = { "--single-quote", "--jsx-single-quote" },
 		}),
 		formatting.black, -- Python formatter
 		formatting.clang_format, -- Java formatter
