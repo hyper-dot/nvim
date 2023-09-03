@@ -15,7 +15,7 @@ return {
     local keymap = vim.keymap -- for conciseness
 
     local opts = { noremap = true, silent = true }
-    local on_attach = function(client, bufnr)
+    local on_attach = function(_, bufnr)
       opts.buffer = bufnr
 
       -- set keybinds
@@ -78,8 +78,8 @@ return {
 
     -- configure typescript server with plugin
     lspconfig["tsserver"].setup({
-        capabilities = capabilities,
-        on_attach = on_attach,
+      capabilities = capabilities,
+      on_attach = on_attach,
     })
 
     -- configure css server

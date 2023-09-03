@@ -15,7 +15,7 @@ keymap.set("n", "<leader>h", ":nohl<CR>", { desc = "Clear search highlights" })
 -- delete single character without copying into register
 -- keymap.set("n", "x", '"_x')
 
-keymap.set("n", "<leader>q", ":q<CR>", { desc = "Clear search highlights" })
+keymap.set("n", "<leader>q", ":q<CR>", { desc = "Quit neovim" })
 
 -- increment/decrement numbers
 keymap.set("n", "<leader>+", "<C-a>", { desc = "Increment number" }) -- increment
