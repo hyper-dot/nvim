@@ -35,7 +35,7 @@ k.set("n", "<leader>x", ":bdelete<CR>", opts)
 
 -- Telescope
 k.set("n", "<leader>ff", ":Telescope find_files<CR>", opts)
-k.set("n", "<leader>ft", ":Telescope live_grep<CR>", opts)
+k.set("n", "<leader>st", ":Telescope live_grep<CR>", opts)
 k.set("n", "<leader>fr", ":Telescope oldfiles<CR>", opts)
 
 -- Lazygit
