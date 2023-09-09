@@ -43,3 +43,6 @@ k.set("n", "<leader>gg", ":LazyGit<CR>", opts)
 
 -- Makdown preview
 k.set("n", "<leader>mt", ":MarkdownPreviewToggle<CR>", opts)
+
+-- GitSigns
+k.set("n", "<leader>gb", ":Gitsigns toggle_current_line_blame<CR>", opts)
