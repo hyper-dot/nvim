@@ -46,3 +46,10 @@ keymap.set("n", "<leader>e", "<cmd>NeoTreeRevealToggle<CR>", { desc = "Open File
 
 -- Markdown Preview
 keymap.set("n", "<leader>mt", "<cmd>MarkdownPreviewToggle<CR>", { desc = "Open File Explorer" }) --  move current buffer to new tab
+
+-- Neorg
+--Neorg
+keymap.set("n", "<leader>ns", ":Neorg workspace startuphire<CR>", { desc = "Open Neorg Startuphire Workspace" })
+keymap.set("n", "<leader>nj", ":Neorg workspace javascript<CR>", { desc = "Open Neorg JavaScript Workspace " })
+keymap.set("n", "<leader>ngo", ":Neorg workspace golang<CR>", { desc = "Open Neorg Golang Workspace " })
+keymap.set("n", "<leader>nge", ":Neorg workspace general<CR>", { desc = "Open Neorg General Workspace" })
