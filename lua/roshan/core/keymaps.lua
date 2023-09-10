@@ -5,51 +5,63 @@ local keymap = vim.keymap -- for conciseness
 
 ----------------- General Keymaps -------------------
 
+local opts = { silent = true }
+
 -- use jj to exit insert mode
-keymap.set("i", "jj", "<ESC>", { desc = "Exit insert mode with jk" })
+opts.desc = "Exit insert mode with jj"
+keymap.set("i", "jj", "<ESC>", opts)
 
 -- clear search highlights
-keymap.set("n", "<leader>h", ":nohl<CR>", { desc = "Clear search highlights" })
+opts.desc = "Clear search highlights"
+keymap.set("n", "<leader>h", ":nohl<CR>", opts)
 
 -- clear search highlights
-keymap.set("n", "<leader>w", ":w<CR>", { desc = "Save changes" })
+opts.desc = "Save changes"
+keymap.set("n", "<leader>w", ":w<CR>", opts)
 
 -- delete single character without copying into register
 -- keymap.set("n", "x", '"_x')
-
-keymap.set("n", "<leader>q", ":q<CR>", { desc = "Quit neovim" })
+opts.desc = "Quit Neovim"
+keymap.set("n", "<leader>q", ":q<CR>", opts)
 
 -- LazyGit
-keymap.set("n", "<leader>gg", ":LazyGit <CR>", { desc = "Lazy Git" }) -- increment
+opts.desc = "LazyGit"
+keymap.set("n", "<leader>gg", ":LazyGit <CR>", opts) -- increment
 
 -- increment/decrement numbers
-keymap.set("n", "<leader>+", "<C-a>", { desc = "Increment number" }) -- increment
-keymap.set("n", "<leader>-", "<C-x>", { desc = "Decrement number" }) -- decrement
+opts.desc = "Increment number"
+keymap.set("n", "<leader>+", "<C-a>", opts) -- increment
+opts.desc = "Decrement number"
+keymap.set("n", "<leader>-", "<C-x>", opts) -- decrement
 
 -- Bufferline
-keymap.set("n", "<leader>x", ":bdelete<CR>", { desc = "Close current buffer" })
-keymap.set("n", "<S-h>", ":BufferLineCyclePrev<CR>", { desc = "Close current buffer" })
-keymap.set("n", "<S-l>", ":BufferLineCycleNext<CR>", { desc = "Close current buffer" })
+opts.desc = "Close current buffer"
+keymap.set("n", "<leader>x", ":bdelete<CR>", opts)
+opts.desc = "Move to Previous Buffer"
+keymap.set("n", "<S-h>", ":BufferLineCyclePrev<CR>", opts)
+opts.desc = "Move to Next Buffer"
+keymap.set("n", "<S-l>", ":BufferLineCycleNext<CR>", opts)
 
 -- window management
-keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
-keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" }) -- split window horizontally
-keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size" }) -- make split windows equal width & height
-keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" }) -- close current split window
-
-keymap.set("n", "<leader>to", "<cmd>tabnew<CR>", { desc = "Open new tab" }) -- open new tab
-keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" }) -- close current tab
-keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) --  go to next tab
-keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  go to previous tab
-keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
+opts.desc = "Split window vertically"
+keymap.set("n", "<leader>sv", "<C-w>v", opts) -- split window vertically
+opts.desc = "Split window horizontally"
+keymap.set("n", "<leader>sh", "<C-w>s", opts) -- split window horizontally
+opts.desc = "Make splits equal size"
+keymap.set("n", "<leader>se", "<C-w>=", opts) -- make split windows equal width & height
 
 -- NeoTree
-keymap.set("n", "<leader>e", "<cmd>Neotree reveal toggle<CR>", { desc = "Open File Explorer" }) --  move current buffer to new tab
+opts.desc = "Open file explorer"
+keymap.set("n", "<leader>e", "<cmd>Neotree reveal toggle<CR>", opts)
 
 -- Markdown Preview
-keymap.set("n", "<leader>mt", "<cmd>MarkdownPreviewToggle<CR>", { desc = "Open File Explorer" }) --  move current buffer to new tab
+opts.desc = "Markdown Toggle"
+keymap.set("n", "<leader>mt", "<cmd>MarkdownPreviewToggle<CR>", opts)
 
--- Neorg
+-- GitSigns
+opts.desc = "Togle current line blame"
+keymap.set("n", "<leader>gb", ":Gitsigns toggle_current_line_blame<CR>", opts)
+
 --Neorg
 keymap.set("n", "<leader>ns", ":Neorg workspace startuphire<CR>", { desc = "Open Neorg Startuphire Workspace" })
 keymap.set("n", "<leader>nj", ":Neorg workspace javascript<CR>", { desc = "Open Neorg JavaScript Workspace " })
