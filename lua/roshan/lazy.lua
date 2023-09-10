@@ -12,7 +12,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup(
-  { { import = "roshan.plugins" }, { import = "roshan.plugins.lsp" }, { import = "roshan.golang" } },
+  { { import = "roshan.plugins" }, { import = "roshan.plugins.lsp" }, { import = "roshan.plugins.lsp.golang" } },
   {
     install = {
       colorscheme = { "vscode" },
