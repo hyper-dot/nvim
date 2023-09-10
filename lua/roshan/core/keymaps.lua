@@ -40,3 +40,6 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 
 -- NeoTree
 keymap.set("n", "<leader>e", "<cmd>NeoTreeRevealToggle<CR>", { desc = "Open File Explorer" }) --  move current buffer to new tab
+
+-- Markdown Preview
+keymap.set("n", "<leader>mt", "<cmd>MarkdownPreviewToggle<CR>", { desc = "Open File Explorer" }) --  move current buffer to new tab
