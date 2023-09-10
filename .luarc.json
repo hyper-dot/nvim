@@ -1,0 +1,7 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "enable_diagnostics",
+        "config"
+    ]
+}
