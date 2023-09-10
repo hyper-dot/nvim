@@ -28,6 +28,8 @@ keymap.set("n", "<leader>-", "<C-x>", { desc = "Decrement number" }) -- decremen
 
 -- Bufferline
 keymap.set("n", "<leader>x", ":bdelete<CR>", { desc = "Close current buffer" })
+keymap.set("n", "<S-h>", ":BufferLineCyclePrev<CR>", { desc = "Close current buffer" })
+keymap.set("n", "<S-l>", ":BufferLineCycleNext<CR>", { desc = "Close current buffer" })
 
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
