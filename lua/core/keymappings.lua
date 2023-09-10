@@ -49,3 +49,9 @@ k.set("n", "<leader>gb", ":Gitsigns toggle_current_line_blame<CR>", opts)
 
 -- Twilight
 k.set("n", "<leader>te", ":Twilight<CR>", opts)
+
+--Neorg
+k.set("n", "<leader>ns", ":Neorg workspace startuphire<CR>", opts)
+k.set("n", "<leader>nj", ":Neorg workspace javascript<CR>", opts)
+k.set("n", "<leader>ngo", ":Neorg workspace golang<CR>", opts)
+k.set("n", "<leader>nge", ":Neorg workspace general<CR>", opts)
