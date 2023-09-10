@@ -19,6 +19,9 @@ keymap.set("n", "<leader>w", ":w<CR>", { desc = "Save changes" })
 
 keymap.set("n", "<leader>q", ":q<CR>", { desc = "Quit neovim" })
 
+-- LazyGit
+keymap.set("n", "<leader>gg", ":LazyGit <CR>", { desc = "Lazy Git" }) -- increment
+
 -- increment/decrement numbers
 keymap.set("n", "<leader>+", "<C-a>", { desc = "Increment number" }) -- increment
 keymap.set("n", "<leader>-", "<C-x>", { desc = "Decrement number" }) -- decrement
