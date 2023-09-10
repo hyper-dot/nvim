@@ -1,5 +1,6 @@
 return {
   "nvimdev/lspsaga.nvim",
+  priority = 1000,
   config = function()
     require("lspsaga").setup({
       -- keybinds for navigation in lspsaga window
