@@ -9,7 +9,7 @@ return {
 
     -- for conciseness
     local formatting = null_ls.builtins.formatting -- to setup formatters
-    local diagnostics = null_ls.builtins.diagnostics -- to setup linters
+    -- local diagnostics = null_ls.builtins.diagnostics -- to setup linters
 
     -- to setup format on save
     local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
@@ -26,7 +26,7 @@ return {
           extra_filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
         }), -- js/ts formatter
         formatting.stylua, -- lua formatter
-        diagnostics.eslint_d,
+        -- diagnostics.eslint_d,
       },
       -- configure format on save
       on_attach = function(current_client, bufnr)
