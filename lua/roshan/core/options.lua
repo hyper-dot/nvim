@@ -1,4 +1,3 @@
-vim.g.nord_disable_background = true
 vim.cmd("autocmd!")
 vim.opt.termguicolors = true
 vim.opt.signcolumn = "yes:1"
