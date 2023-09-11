@@ -28,7 +28,7 @@ k.set("i", "<C-l>", "<C-o>l")
 -- Plugin specifics
 
 -- Nvim Tree File explorer
-k.set("n", "<leader>e", ":NeoTreeRevealToggle<CR>", opts)
+k.set("n", "<leader>e", ":Neotree reveal toggle<CR>", opts)
 
 -- Bufferline
 k.set("n", "<leader>x", ":bdelete<CR>", opts)
