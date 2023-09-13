@@ -15,6 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappings are correct
 
 require("lazy").setup({
+	"wakatime/vim-wakatime",
 	"nvim-lua/plenary.nvim", -- dependency of many packages
 
 	-- flash to get there fast
