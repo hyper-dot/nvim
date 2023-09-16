@@ -33,10 +33,18 @@ require("lazy").setup({
   },
 	},
 	-- Vscode colorscheme
+
 	{
 		"Mofiqul/vscode.nvim",
 		lazy = false,
 	},
+
+	-- Ayu colorscheme
+
+	{
+		"shatur/neovim-ayu",
+	},
+
 	-- Devicons
 	"nvim-tree/nvim-web-devicons",
 
