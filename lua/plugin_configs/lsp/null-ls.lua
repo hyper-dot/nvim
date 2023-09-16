@@ -24,7 +24,6 @@ null_ls.setup({
 		formatting.black, -- Python formatter
 		formatting.clang_format, -- Java formatter
 		formatting.stylua, -- lua formatter
-		diagnostics.cpplint, -- c/c++ diagnostics
 
 		-- =====Go Lang format===========
 		formatting.gofmt,
