@@ -17,7 +17,7 @@ null_ls.setup({
 	sources = {
 		--  to disable file types use
 		--  "formatting.prettier.with({disabled_filetypes = {}})" (see null-ls docs)
-		formatting.prettier.with({
+		formatting.prettierd.with({
 			extra_filetypes = { "javascript", "javascriptreact", "typescript", "typescript-react" },
 			--			extra_args = { "--single-quote", "--jsx-single-quote" },
 		}),
