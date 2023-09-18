@@ -15,5 +15,5 @@ require("ayu").setup({
 })
 
 vim.cmd([[
-  colorscheme vscode
+  colorscheme ayu-dark
 ]])
