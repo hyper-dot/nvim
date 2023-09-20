@@ -12,7 +12,7 @@ k.set("n", ";", ":")
 k.set("n", "<leader>w", ":w<CR>")
 k.set("n", "<leader>h", ":nohlsearch<CR>", opts) -- removes highlight from searched text
 k.set("n", "<leader>q", ":q<CR>", opts) -- Quits neovim
-k.set("n", "<leader>Q", ":q!<CR>") -- Force quits without saving
+k.set("n", "<leader>Q", ":q!<CR>") -- Force quits wihout saving
 k.set("n", "<C-h>", "^")
 k.set("n", "<C-l>", "g_")
 k.set("n", "<S-l>", ":BufferLineCycleNext<CR>", opts)
@@ -25,7 +25,12 @@ k.set("i", "jj", "<ESC>") -- Exits insert mode
 k.set("i", "<C-h>", "<C-o>h")
 k.set("i", "<C-l>", "<C-o>l")
 
--- Plugin specifics
+-- Plugin specifications
+-- Tmux Navigation
+k.set("n", "<C-h>", ":TmuxNavigateLeft<CR>", opts)
+k.set("n", "<C-l>", ":TmuxNavigateRight<CR>", opts)
+k.set("n", "<C-j>", ":TmuxNavigateDown<CR>", opts)
+k.set("n", "<C-k>", ":TmuxNavigateUp<CR>", opts)
 
 -- Nvim Tree File explorer
 k.set("n", "<leader>e", ":Neotree reveal toggle<CR>", opts)
