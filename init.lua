@@ -1,31 +1,10 @@
--- Theming
+if vim.loader then
+	vim.loader.enable()
+end
 
--- Core
-require("core.base")
-require("core.keymappings")
-require("plugins")
+_G.dd = function(...)
+	require("util.debug").dump(...)
+end
+vim.print = _G.dd
 
--- Plugins
-
--- UTILS
-require("plugin_configs.telescope")
-require("plugin_configs.autopairs")
-require("plugin_configs.gitSigns")
-
--- LSP
-require("plugin_configs.lsp.mason")
-require("plugin_configs.lsp.lspsaga")
-require("plugin_configs.lsp.lspconfig")
-require("plugin_configs.lsp.null-ls")
-require("plugin_configs.lsp.nvim-cmp")
-require("plugin_configs.lsp.diagnostics")
-
--- UI
-require("plugin_configs.ui.neotree")
-require("plugin_configs.ui.indent_blankline")
-require("plugin_configs.ui.dashboard")
-require("plugin_configs.ui.colorizer")
-require("plugin_configs.ui.bufferline")
-require("plugin_configs.ui.treesitter")
-require("plugin_configs.ui.lualine")
-require("plugin_configs.ui.colorscheme")
+require("config.lazy")
