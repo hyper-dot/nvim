@@ -11,6 +11,6 @@ return {
 
 		keymap.set("n", "<S-h>", "<cmd>BufferLineCyclePrev<cr>", { desc = "Switch to left buffer" })
 		keymap.set("n", "<S-l>", "<cmd>BufferLineCycleNext<cr>", { desc = "Switch to left buffer" })
-		keymap.set("n", "<leader>x", "<cmd>BufferLineCycleNext<cr>", { desc = "Switch to left buffer" })
+		keymap.set("n", "<leader>x", ":bdelete<CR>", { desc = "Close current buffer" })
 	end,
 }
