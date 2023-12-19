@@ -9,8 +9,17 @@ local keymap = vim.keymap -- for conciseness
 -- use jk to exit insert mode
 keymap.set("i", "jj", "<ESC>", { desc = "Exit insert mode with jk" })
 
+-- use jk to exit insert mode
+keymap.set("n", "<leader>w", ":w<CR>", { desc = "Save" })
+
 -- clear search highlights
-keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
+keymap.set("n", "<leader>h", ":nohl<CR>", { desc = "Clear search highlights" })
+
+-- Toggle file explorer
+keymap.set("n", "<leader>e", ":Neotree toggle<CR>", { desc = "Clear search highlights" })
+
+-- Toggle file explorer
+keymap.set("n", "<leader>q", ":q<CR>", { desc = "Clear search highlights" })
 
 -- delete single character without copying into register
 -- keymap.set("n", "x", '"_x')

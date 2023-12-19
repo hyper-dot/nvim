@@ -1,11 +1,16 @@
 return {
-  "akinsho/bufferline.nvim",
-  dependencies = { "nvim-tree/nvim-web-devicons" },
-  version = "*",
-  opts = {
-    options = {
-      mode = "tabs",
-      separator_style = "slant",
-    },
-  },
+	"akinsho/bufferline.nvim",
+	priority = 1000, -- make sure to load this before all the other start plugins
+	dependencies = { "nvim-tree/nvim-web-devicons" },
+	version = "*",
+	config = function()
+		require("bufferline").setup()
+
+		-- set keymaps
+		local keymap = vim.keymap -- for conciseness
+
+		keymap.set("n", "<S-h>", "<cmd>BufferLineCyclePrev<cr>", { desc = "Switch to left buffer" })
+		keymap.set("n", "<S-l>", "<cmd>BufferLineCycleNext<cr>", { desc = "Switch to left buffer" })
+		keymap.set("n", "<leader>x", "<cmd>BufferLineCycleNext<cr>", { desc = "Switch to left buffer" })
+	end,
 }
