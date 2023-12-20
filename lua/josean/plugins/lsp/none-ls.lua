@@ -1,6 +1,6 @@
 return {
 	"nvimtools/none-ls.nvim", -- configure formatters & linters
-	-- lazy = false,
+	-- lazy = true,
 	priority = 1000,
 	-- event = { "BufReadPre", "BufNewFile" }, -- to enable uncomment this
 	dependencies = {
