@@ -38,11 +38,6 @@ k.set("n", "<leader>e", ":Neotree reveal toggle<CR>", opts)
 -- Bufferline
 k.set("n", "<leader>x", ":bdelete<CR>", opts)
 
--- Telescope
-k.set("n", "<leader>ff", ":Telescope find_files<CR>", opts)
-k.set("n", "<leader>st", ":Telescope live_grep<CR>", opts)
-k.set("n", "<leader>fr", ":Telescope oldfiles<CR>", opts)
-
 -- Lazygit
 k.set("n", "<leader>gg", ":LazyGit<CR>", opts)
 
@@ -55,8 +50,3 @@ k.set("n", "<leader>gb", ":Gitsigns toggle_current_line_blame<CR>", opts)
 -- Twilight
 k.set("n", "<leader>te", ":Twilight<CR>", opts)
 
---Neorg
-k.set("n", "<leader>ns", ":Neorg workspace startuphire<CR>", opts)
-k.set("n", "<leader>nj", ":Neorg workspace javascript<CR>", opts)
-k.set("n", "<leader>ngo", ":Neorg workspace golang<CR>", opts)
-k.set("n", "<leader>nge", ":Neorg workspace general<CR>", opts)

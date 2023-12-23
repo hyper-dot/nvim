@@ -27,7 +27,7 @@ vim.opt.smarttab = true
 vim.opt.breakindent = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
-vim.opt.wrap = false -- No Wrap lines
+vim.opt.wrap = true -- Wrap lines
 vim.opt.backspace = { "start", "eol", "indent" }
 
 vim.opt.iskeyword:append("-")
