@@ -15,8 +15,8 @@ k.set("n", "<leader>q", ":q<CR>", opts) -- Quits neovim
 k.set("n", "<leader>Q", ":q!<CR>") -- Force quits wihout saving
 k.set("n", "<C-h>", "^")
 k.set("n", "<C-l>", "g_")
-k.set("n", "<S-l>", ":BufferLineCycleNext<CR>", opts)
-k.set("n", "<S-h>", ":BufferLineCyclePrev<CR>", opts)
+k.set("n", "<Tab>", ":BufferLineCycleNext<CR>", opts)
+k.set("n", "<S-Tab>", ":BufferLineCyclePrev<CR>", opts)
 k.set("n", "<leader>s", ":vsplit<CR>")
 k.set("n", "<leader><S-s>", ":split<CR>")
 
@@ -40,7 +40,7 @@ k.set("n", "<leader>x", ":bdelete<CR>", opts)
 
 -- Telescope
 k.set("n", "<leader>ff", ":Telescope find_files<CR>", opts)
-k.set("n", "<leader>st", ":Telescope live_grep<CR>", opts)
+k.set("n", "<leader>fw", ":Telescope live_grep<CR>", opts)
 k.set("n", "<leader>fr", ":Telescope oldfiles<CR>", opts)
 
 -- Lazygit

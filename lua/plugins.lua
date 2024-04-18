@@ -34,16 +34,11 @@ require("lazy").setup({
 	},
 	-- Vscode colorscheme
 
-	{
-		"Mofiqul/vscode.nvim",
-		lazy = false,
-	},
-
-	-- Ayu colorscheme
-
-	{
-		"shatur/neovim-ayu",
-	},
+	-- COLORSCHEMES
+	"Mofiqul/vscode.nvim", -- VSCODE
+	"shatur/neovim-ayu", -- AYU
+	"projekt0n/github-nvim-theme", -- GITHUB
+	"ellisonleao/gruvbox.nvim",
 
 	-- Devicons
 	"nvim-tree/nvim-web-devicons",
@@ -75,10 +70,10 @@ require("lazy").setup({
 
 	-- fuzzy finding w/ telescope
 	{ "nvim-telescope/telescope.nvim", branch = "0.1.x" }, -- fuzzy finder
-	{
-		"glepnir/dashboard-nvim",
-		event = "VimEnter",
-	},
+	-- {
+	-- 	"glepnir/dashboard-nvim",
+	-- 	event = "VimEnter",
+	-- },
 	{
 		"kdheepak/lazygit.nvim",
 		-- optional for floating window border decoration
@@ -86,6 +81,7 @@ require("lazy").setup({
 			"nvim-lua/plenary.nvim",
 		},
 	},
+
 	{ "nvim-treesitter/nvim-treesitter" },
 
 	-- Auto completion
@@ -134,6 +130,7 @@ require("lazy").setup({
 			})
 		end,
 	},
+
 	-- Markdown plugin
 	{
 		"iamcco/markdown-preview.nvim",
@@ -141,7 +138,7 @@ require("lazy").setup({
 		init = function()
 			vim.g.mkdp_filetypes = { "markdown" }
 			vim.g["mkdp_theme"] = "light"
-			vim.g["mkdp_browser"] = "firefox"
+			-- vim.g["mkdp_browser"] = "firefox"
 			vim.g["mkdp_auto_close"] = 0
 		end,
 		ft = { "markdown" },
