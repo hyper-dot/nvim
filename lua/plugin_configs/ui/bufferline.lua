@@ -5,5 +5,5 @@ if not status then
 end
 
 bufferline.setup({ options = {
-	-- separator_style = "slant",
+	separator_style = "slant",
 } })

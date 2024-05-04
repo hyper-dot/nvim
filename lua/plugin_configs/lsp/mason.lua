@@ -20,6 +20,5 @@ mason_lspconfig.setup({
 		"lua_ls", -- Lua
 		"eslint",
 		"lua_ls",
-		"stylua",
 	},
 })
